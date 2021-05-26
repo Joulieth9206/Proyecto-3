@@ -1,0 +1,121 @@
+@font-face{
+	font-family: "comic Boys.ttf";
+	src: url("../fuentes/spicy-rice/SpicyRice-Regular.otf");
+}
+
+body {
+    background-image: url('../imagenes/paul-volkmer-qVotvbsuM_c-unsplash.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.pagina{
+    background-image: url('../imagenes/joshua-earle-C6duwascOEA-unsplash.jpg');
+    background-size: cover;
+}
+h1{
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family:comic
+    
+}
+.contenedor{
+    height: 650px;
+} 
+
+.contenedor1{
+    height: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor2{
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 67px 0px 67px;
+}
+
+.contenedor3{
+    height: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton{
+    background:#7704E9;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    font-family: spicyrice;
+    border: 1px solid black;
+    color:white;
+}
+.caja1{
+    background:rgb(119, 4, 233.0,5);
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    align-items: center;
+    display: inline-block;
+    opacity:0,5;
+    position: relative;
+    padding: 20px;
+    border:solid,#7704e9;
+    text-shadow: white;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+
+    }
+.menuizq{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height: 99vh;
+    width: 30%;
+
+
+
+}
+
+ ul{
+list-style-type: none;
+ }
+
+.icono{
+    list-style-image:('../imagenes/'home);
+}
+.menu{
+    text-align: center;
+    width: 30%;
+    background:#7704E9;
+    list-style: none;
+    margin: 0;
+    padding: 10,20;
+    height: 40px;
+    list-style-position: inside;
+   /* display: inline-block;*/
+   color :#fff;
+   text-decoration: none;
+   flex-direction: column;
+  }    
+
+.li a{
+  display: inline-block;
+   color :#fff;
+   padding: 10px,20px;
+}
+#fondo{
+
+    background-image: url('../imagenes/joshua-earle-C6duwascOEA-unsplash.jpg');
+    
+    align-items: center;
+
+    background-size: cover;
+}
